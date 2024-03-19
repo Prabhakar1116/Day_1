@@ -1,0 +1,29 @@
+ Objects and its internal representation in Javascript:-
+
+ Objects:
+     * It is a collection of related properties and methods.
+     * A property is an association between a key and a value. eg: {name:"John",age:30}
+     * Methods are functions associated with objects.
+     * JavaScript objects provide a flexible and efficient way to store and access data
+
+Internal Representation of JavaScript object:
+
+1. JavaScript objects use a hash table-like structure internally.
+   - Internally, JavaScript objects are represented using hash tables .
+   - This structure allows for efficient storage and retrieval of data.
+
+2. Keys are strings, and values can be any valid JavaScript data type.
+   - Objects in JavaScript are collections of key-value pairs.
+   - The keys are typically strings, and the values can be any JavaScript data type 
+     eg arrays, functions, etc.
+
+3. Fast access and manipulation.
+   - JavaScript objects provide fast access and manipulation of data.
+   - The underlying hash table structure enables quick retrieval of values associated with keys.
+
+
+Hash tables:-
+    - It  provide a fast and efficient way to store and retrieve data using keys. 
+    - In a hashtable or hashmap , each key is associated with a unique integer called as Hash Code / Index.
+    - We can use the index to find the value in the table.It provides Id for each value in the table.
+    - It can reduce storage and improve performance.

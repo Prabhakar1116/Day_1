@@ -1,0 +1,22 @@
+HTTP - HyperText Transfer Protocol
+  - it is a protocol used for transmitting data between computers through internet & web-browsers.
+  - It operates over TCP/IP, which provides services to the web browser.
+  - it is used request a data and also to fetch from the server
+
+Versions:
+--  HTTP1.1
+      *Only one request can be sent and received at a time
+      *The client must wait until the response has been completely read before sending another request.
+      *it allows multiple websites be hosted on a single server
+      *low performance and the ability to load resources
+
+-- HTTP2.0
+      *Multiple requests can be sent simultaneously by the client.
+      *Server pushes responses to the client for faster loading of webpages.
+      *Improved performance of the webpages and loading resources quickly.
+      *It allows header compression which improves performances.
+
+Conclusion:-
+HTTP is an important part of the Internet  that helps in transferring information between users' devices and servers.
+In comparission to both HTTP1.1 &  HTTP2.0, HTTP2.0 offers better performance in terms of speed and efficiency as compared to HTTP1.1.
+HTTP2.0 is designed to improve the overall performance and efficiency an address the short comings of HTTP1.1
